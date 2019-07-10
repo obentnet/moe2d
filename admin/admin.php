@@ -9,9 +9,9 @@ if(empty($_SESSION['username'])){
 <html>
     <head>
         <title><?php echo $SiteName.' - 后台管理 Powered By Moe2d';?></title>
-        <link rel="stylesheet" href="/admin/layui/css/layui.css"/>
-        <link rel="stylesheet" href="/admin/layui/css/layui.mobile.css"/>
-        <script src="/admin/layui/layui.js"></script>
+        <link rel="stylesheet" href="<?php echo $SiteUrl;?>/admin/layui/css/layui.css"/>
+        <link rel="stylesheet" href="<?php echo $SiteUrl;?>/admin/layui/css/layui.mobile.css"/>
+        <script src="<?php echo $SiteUrl;?>/admin/layui/layui.js"></script>
         <style>
             body{
                 background-color:#00000012;
@@ -27,16 +27,16 @@ if(empty($_SESSION['username'])){
                         <div class="head">
                  <ul class="layui-nav" lay-filter="">
                 <li class="layui-nav-item"><a href="<?php echo $SiteUrl;?>"><i class="layui-icon">&#xe7ae;</i>&nbsp;&nbsp;网站</a></li>
-                <li class="layui-nav-item"><a href="../admin/admin.php"><i class="layui-icon">&#xe665;</i>&nbsp;&nbsp;后台首页</a></li>
+                <li class="layui-nav-item"><a href="<?php echo $Siteurl;?>"><i class="layui-icon">&#xe665;</i>&nbsp;&nbsp;后台首页</a></li>
                 <li class="layui-nav-item">
                     <a href="javascript:;"><i class="layui-icon">&#xe716;</i>&nbsp;&nbsp;设置</a>
                     <dl class="layui-nav-child"> <!-- 二级菜单 -->
-                    <dd><a href="../admin/user-set.php"><i class="layui-icon">&#xe66f;</i>&nbsp;&nbsp;个人设置</a></dd>
-                    <dd><a href=""><i class="layui-icon">&#xe66a;</i>&nbsp;&nbsp;模板设置</a></dd>
-                    <dd><a href="../admin/site-set.php"><i class="layui-icon">&#xe614;</i>&nbsp;&nbsp;站点设置</a></dd>
+                    <dd><a href="<?php echo $SiteUrl;?>/admin/user-set.php"><i class="layui-icon">&#xe66f;</i>&nbsp;&nbsp;个人设置</a></dd>
+                    <dd><a href="<?php echo $SiteUrl;?>/admin/url-set.php"><i class="layui-icon">&#xe66a;</i>&nbsp;&nbsp;链接设置</a></dd>
+                    <dd><a href="../admin/site-set.php"><i class="layui-icon">&#xe614;</i>站点设置</a></dd>
                     </dl>
                 </li>
-                 <li class="layui-nav-item"><a href="/admin/logout.php"><i class="layui-icon">&#x1007;</i>退出登录</a></li>
+                 <li class="layui-nav-item"><a href="<?php echo $Siteurl;?>/admin/logout.php"><i class="layui-icon">&#x1007;</i>退出登录</a></li>
                 </ul>
                 
                 <script>
@@ -64,12 +64,12 @@ if(empty($_SESSION['username'])){
                                 <strong><p style="margin:3% 0 0 5%;">快速传送</p></strong>
                                 <div style="margin:3% 0 0 5%;">
                                     <a href="<?php echo $SiteUrl;?>">站点首页</a>&nbsp;&nbsp;&nbsp;
-                                    <a href="">模板设置</a>&nbsp;&nbsp;&nbsp;
-                                    <a href="../admin/user-set.php">个人设置</a>&nbsp;&nbsp;&nbsp;
-                                    <a href="">系统设置</a>&nbsp;&nbsp;&nbsp;
+                                    <a href="<?php echo $SiteUrl;?>/admin/url-set.php">链接设置</a>&nbsp;&nbsp;&nbsp;
+                                    <a href="/admin/user-set.php">个人设置</a>&nbsp;&nbsp;&nbsp;
+                                    <a href="<?php echo $SiteUrl;?>/admin/site-set.php">系统设置</a>&nbsp;&nbsp;&nbsp;
                                 </div>
                                 <strong><p style="margin:3% 0 0 5%;">链接详情</p></strong>
-                                <div style="margin:3% 0 0 5%;">
+                                <div style="margin:3% 0 5% 5%;">
                                     QQ:<?php echo $QQ_Link;?><br/>
                                     微信:<?php echo $WeChat_Link;?><br/>
                                     新浪:<?php echo $Sina_Link;?><br/>
