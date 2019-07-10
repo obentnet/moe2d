@@ -32,7 +32,7 @@
 <input class="btn btn-primary" type="submit" name="sub" value="登录后台">
 </div>
 </form>
-<p align="right"><a href="" target="_blank">忘记密码？</a></p>
+<p align="right"><a href="https://github.com/obentnet/moe2d#%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%E9%97%AE%E9%A2%98" target="_blank">忘记密码？</a></p>
 </div>
 </div>
 
