@@ -62,8 +62,7 @@
     \$Steam_Link = '$Steam_Link';
 
     /**系统内设*/
-    \$_Theme = '$_Theme';
-
+    
     \$MDUI_CSS = '$MDUI_CSS';
 
     \$MDUI_JS = '$MDUI_JS';

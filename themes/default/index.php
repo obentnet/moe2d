@@ -10,12 +10,12 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>It's ME | しら</title>
-<link href="<?php echo $ThemeURL;?>/fanvicon.ico" rel="shortcut icon" type="image/x-icon" /> 
-<link rel="stylesheet" href="<?php echo $ThemeURL;?>/css/style.css">
-<link rel="stylesheet" href="<?php echo $ThemeURL;?>/dist/styles/Vidage.css" />
-<link rel="stylesheet" href="<?php echo $ThemeURL;?>/css/ionicons.min.css">
-<link href="<?php echo $ThemeURL;?>/dist/mfb.css" rel="stylesheet">
+<title><?php echo $SiteName;?></title>
+<link href="<?php echo $SiteUrl.'/themes/default';?>/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+<link rel="stylesheet" href="<?php echo $SiteUrl.'/themes/default';?>/css/style.css">
+<link rel="stylesheet" href="<?php echo $SiteUrl.'/themes/default';?>/dist/styles/Vidage.css" />
+<link rel="stylesheet" href="<?php echo $SiteUrl.'/themes/default';?>/css/ionicons.min.css">
+<link href="<?php echo $SiteUrl.'/themes/default';?>/dist/mfb.css" rel="stylesheet">
 <!--[if IE]>
 	<script src="//cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
 <![endif]-->

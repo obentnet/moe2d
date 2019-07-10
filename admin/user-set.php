@@ -27,7 +27,7 @@
                     <a href="javascript:;"><i class="layui-icon">&#xe716;</i>设置</a>
                     <dl class="layui-nav-child"> <!-- 二级菜单 -->
                     <dd><a href="../admin/user-set.php"><i class="layui-icon">&#xe66f;</i>个人设置</a></dd>
-                    <dd><a href=""><i class="layui-icon">&#xe66a;</i>模板设置</a></dd>
+                    <dd><a href="../admin/url-set.php"><i class="layui-icon">&#xe66a;</i>链接设置</a></dd>
                     <dd><a href="../admin/site-set.php"><i class="layui-icon">&#xe614;</i>站点设置</a></dd>
                     </dl>
                 </li>
