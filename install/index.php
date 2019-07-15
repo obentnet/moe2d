@@ -47,7 +47,7 @@
                     <p><input class="mdui-textfield-input" type="text" name="Mail-contact" placeholder="邮箱(Url)" /></p>
                     <p><input class="mdui-textfield-input" type="text" name="Github-contact" placeholder="GitHub(Url)" /></p>
                     <p><input class="mdui-textfield-input" type="text" name="Facebook-contact" placeholder="FaceBook(Url)" /></p>
-                    <p><input class="mdui-textfield-input" type="text" name="Steam-contact" placeholder="FaceBook(Url)" /></p>
+                    <p><input class="mdui-textfield-input" type="text" name="Steam-contact" placeholder="Steam(Url)" /></p>
                 </div>
                 <input class="mdui-btn mdui-color-blue-200 mdui-ripple" type="submit" value="开始安装" />
             </form>
